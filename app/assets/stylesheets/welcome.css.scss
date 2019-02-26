@@ -26,25 +26,6 @@
 	}
 }
 
-#callouts {
-	.callout_inner {
-		.wrapper {
-			.callout {
-				p, h2 {
-					color: rgb(81, 148, 208);
-					font-weight: bold;
-					font-style: italic;
-					width: 45%;
-					text-align: center;
-					margin-left:auto;
-					margin-right: auto;
-				}
-			}
-		}
-	}
-
-}
-
 #testimonial {
 	text-align: center;
 	font-size: 1.5rem;
@@ -76,15 +57,22 @@
 	.callout {
 		text-align: center;
 		width: 100%;
-		padding: 1.5rem 2.5%;
 		float: left;
 		h2 {
 			@include bold_font;
-			color: white;
-			margin-bottom: 0;
+			color: rgb(81, 148, 208);
+			padding-bottom: 20px;
+			margin-top: -60px;
+			font-style: italic;
 		}
 		p {
-			color: rgba(255, 255, 255, 0.9);
+			color: rgb(81, 148, 208);
+			font-weight: bold;
+			font-style: italic;
+			width: 50%;
+			text-align: center;
+			margin-left:auto;
+			margin-right: auto;
 		}
 	}
 }
